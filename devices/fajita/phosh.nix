@@ -16,7 +16,7 @@
     enable = true;
     group = "users";
   };
-
+  services.xserver.libinput.enable = true;
   programs.calls.enable = true;
 
   environment.systemPackages = with pkgs; [
